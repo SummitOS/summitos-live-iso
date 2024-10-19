@@ -1,1 +1,0 @@
-# summitos-live-iso

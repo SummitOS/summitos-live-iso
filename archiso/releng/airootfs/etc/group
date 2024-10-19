@@ -1,0 +1,16 @@
+root:x:0:root
+sys:x:3:bin,summitos
+network:x:90:summitos
+power:x:98:summitos
+adm:x:999:summitos
+wheel:x:998:summitos
+uucp:x:987:summitos
+optical:x:990:summitos
+rfkill:x:983:summitos
+video:x:986:summitos
+storage:x:988:summitos
+audio:x:995:summitos
+users:x:985:summitos
+nopasswdlogin:x:966:summitos
+autologin:x:967:summitos
+summitos:x:1000:
