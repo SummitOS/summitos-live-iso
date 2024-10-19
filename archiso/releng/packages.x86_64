@@ -166,6 +166,9 @@ gvfs
 gvfs-smb
 xdg-user-dirs
 
+papirus-icon-theme
+capitaine-cursors
+
 # Sound
 
 pipewire
@@ -177,5 +180,7 @@ pipewire-zeroconf
 
 # SUMMITOS PACKAGES
 
-summitos-keyring
+summitos-wallpapers
+summitos-plasma-settings
 summitos-mirrorlist
+summitos-keyring
