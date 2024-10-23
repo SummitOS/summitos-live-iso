@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sudo rm /etc/mkinitcpio.conf.d/archiso.conf
+sudo mv /etc/mkinitcpio.d/sosinit /etc/mkinitcpio.d/linux.preset
+sudo mv /etc/sosmkinitcpio.conf /etc/mkinitcpio.conf
+
+rm /usr/local/bin/mkinitcpio-fix

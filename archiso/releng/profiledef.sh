@@ -27,4 +27,10 @@ file_permissions=(
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
+  ["/usr/local/bin/mkinitcpio-fix"]="0:0:755"
+  ["/usr/local/bin/prepare-system"]="0:0:755"
+  ["/usr/local/bin/remove-nvidia"]="0:0:755"
+  ["/usr/local/bin/remove-ucode"]="0:0:755"
+  ["/usr/local/bin/summitos-nvidia-check"]="0:0:755"
+  ["/usr/bin/update-pacman-keyring"]="0:0:755"
 )

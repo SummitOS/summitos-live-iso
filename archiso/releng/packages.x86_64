@@ -165,6 +165,7 @@ gparted
 gvfs
 gvfs-smb
 xdg-user-dirs
+fish
 
 papirus-icon-theme
 capitaine-cursors
@@ -180,7 +181,12 @@ pipewire-zeroconf
 
 # SUMMITOS PACKAGES
 
+summitos-fish-config
 summitos-wallpapers
 summitos-plasma-settings
 summitos-mirrorlist
 summitos-keyring
+
+calamares
+summitos-calamares-config
+summitos-system-installation

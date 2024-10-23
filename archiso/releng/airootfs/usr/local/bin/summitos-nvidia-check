@@ -1,0 +1,14 @@
+#!/bin/bash
+
+local _check_nvidia_card="$(chwd --is_nvidia_card | grep -q 'NVIDIA card found!'; echo $?)"
+  if [[ "${_check_nvidia_card}" -ne 0 ]]; then
+    echo "No NVIDIA card detected. Removing nvidia drivers"
+    _packages_to_remove+=(nvidia-dkms nvidia-utils egl-wayland)
+  fi
+
+  local xx
+  # @ does one by one to avoid errors in the entire process
+  # taken from Erik Dubois script
+  for xx in "${_packages_to_remove[@]}"; do pacman -Rsnc "$xx" --noconfirm; done
+
+sudo rm /usr/local/bin/summitos-nvidia-check
